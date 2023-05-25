@@ -7,9 +7,11 @@ We have created new solidity file which is ```rafiFundMe.sol```<br>
 
 rafiFundme.sol is a contract designed for collecting funds in various cryptocurrencies, such as Ethereum or Polygon. Users can contribute to the contract, and its owner will have control over how those funds are utilized. The contract also allows for withdrawing funds and setting a minimum funding threshold in USD.
 
+![r1 (1)](https://github.com/MdRafidulIslam/rafi_smart_contract_7/assets/86659473/c688b1f5-c86a-49d7-b0a0-b31dc074aa19)
 
 Figure1: open a new solidity file ```rafiFundMe.sol```
 
+![r2 (1)](https://github.com/MdRafidulIslam/rafi_smart_contract_7/assets/86659473/4dbee080-2482-46c7-94e0-e3d5223cd80d)
 
 figure2: Going to this link https://eth-converter.com/ we can find relation beteen ether,GWEI and WEI.<br>
 
@@ -40,9 +42,11 @@ contract rafiFundMe  {
 
 ```
 
+![r3 (1)](https://github.com/MdRafidulIslam/rafi_smart_contract_7/assets/86659473/4598acac-6c82-426e-a3cf-829f72aa22c8)
 
 Figure3: Output after we deployed
 
+![r4](https://github.com/MdRafidulIslam/rafi_smart_contract_7/assets/86659473/775bbbcc-853f-4f70-8596-376576869b8b)
 
 Figure4: error occured as we have no enough ether to send to this contract<br>
 
@@ -50,5 +54,8 @@ Figure4: error occured as we have no enough ether to send to this contract<br>
 
 reverting occurs for this line  ```require(msg.value > 1e18 , "Insufficient transmission");```
 
+![r5](https://github.com/MdRafidulIslam/rafi_smart_contract_7/assets/86659473/d8b83d71-0beb-4ad7-94b9-ece8cdac4dde)
 
 figure5: we set the value to 3 and successfully occured
+![r6](https://github.com/MdRafidulIslam/rafi_smart_contract_7/assets/86659473/02569f32-489b-4bfe-a257-c48a084efae4)
+figure6:
